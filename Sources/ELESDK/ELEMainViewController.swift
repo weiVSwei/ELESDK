@@ -5,6 +5,7 @@
 //  Created by Wei on 2/27/26.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public final class ELEMainViewController: UIViewController {
@@ -15,3 +16,4 @@ public final class ELEMainViewController: UIViewController {
 		title = "ELE SDK Demo"
 	}
 }
+#endif

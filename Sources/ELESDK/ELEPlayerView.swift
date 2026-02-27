@@ -5,6 +5,7 @@
 //  Created by Wei on 2/27/26.
 //
 
+#if canImport(UIKit)
 import UIKit
 import SnapKit
 
@@ -26,3 +27,4 @@ internal final class ELEPlayerView: UIView {
 		fatalError("init(coder:) has not been implemented")
 	}
 }
+#endif

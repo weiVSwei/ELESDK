@@ -4,6 +4,7 @@
 
 import Foundation
 
+@MainActor
 public final class ELESDK {
 
 	public static let shared = ELESDK()
